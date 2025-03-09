@@ -23,14 +23,6 @@ public class Page_PO {
         getDriver().get(url);
     }
 
-    public void waitForAlert_And_Validate(String text) {
-
-        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.alertIsPresent());
-        String alertText = getDriver().switchTo().alert().getText();
-        Assert.assertEquals(alertText, text);
-    }
-
     public boolean chekCurrentURL(String url) {
         Assert.assertEquals(getDriver().getCurrentUrl(), url);
         return false;
