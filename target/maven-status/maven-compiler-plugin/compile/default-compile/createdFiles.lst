@@ -1,3 +1,4 @@
+pageObjects\Checkout_PO.class
 pageObjects\Login_PO.class
 driver\DriverFactory.class
 com\example\Main.class

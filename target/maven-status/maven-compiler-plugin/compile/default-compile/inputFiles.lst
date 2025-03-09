@@ -1,5 +1,6 @@
 E:\QA\automations-swaglabs\src\main\java\com\example\Main.java
 E:\QA\automations-swaglabs\src\main\java\driver\DriverFactory.java
 E:\QA\automations-swaglabs\src\main\java\pageObjects\Cart_PO.java
+E:\QA\automations-swaglabs\src\main\java\pageObjects\Checkout_PO.java
 E:\QA\automations-swaglabs\src\main\java\pageObjects\Login_PO.java
 E:\QA\automations-swaglabs\src\main\java\pageObjects\Page_PO.java

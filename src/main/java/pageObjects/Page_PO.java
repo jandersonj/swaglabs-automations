@@ -1,7 +1,6 @@
 package pageObjects;
 
 import driver.DriverFactory;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -32,7 +31,8 @@ public class Page_PO {
         Assert.assertEquals(alertText, text);
     }
 
-    public void chekCurrentURL(String url) {
+    public boolean chekCurrentURL(String url) {
         Assert.assertEquals(getDriver().getCurrentUrl(), url);
+        return false;
     }
 }

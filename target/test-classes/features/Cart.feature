@@ -1,4 +1,4 @@
-@Cart
+@Cart @regression
 
 Feature: Swag Labs - Add product to cart
  Scenario: Add  product 'Sauce Labs Backpack' to the cart

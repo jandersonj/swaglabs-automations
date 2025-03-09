@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-09T14:09:04 BRT" name="TestNG Suite" finished-at="2025-03-09T14:09:11 BRT" duration-ms="7148">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@27ce24aa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-09T14:09:04 BRT" name="TestNG Test" finished-at="2025-03-09T14:09:11 BRT" duration-ms="7148">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@27ce24aa]" started-at="2025-03-09T14:09:04 BRT" name="setUpClass" finished-at="2025-03-09T14:09:04 BRT" duration-ms="346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@75d4a5c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@27ce24aa]" started-at="2025-03-09T14:09:04 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-09T14:09:09 BRT" duration-ms="4607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add  product 'Sauce Labs Backpack' to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swag Labs - Add product to cart]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@27ce24aa]" started-at="2025-03-09T14:09:04 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-09T14:09:10 BRT" duration-ms="5628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checkout of a single product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Checkout end-to-end]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@27ce24aa]" started-at="2025-03-09T14:09:04 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-09T14:09:08 BRT" duration-ms="4486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting a Login form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swag Labs submission - Login form submission]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@27ce24aa]" started-at="2025-03-09T14:09:08 BRT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-09T14:09:11 BRT" duration-ms="2224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Submitting a Login form with a invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swag Labs submission - Login form submission]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@27ce24aa]" started-at="2025-03-09T14:09:11 BRT" name="tearDownClass" finished-at="2025-03-09T14:09:11 BRT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- TestNG Test -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>
