@@ -12,18 +12,18 @@
 ## Features and Scenarios
 
 1. **Login Feature:**
-   - Scenario: Submitting a Login form with vaid credentials.
+   - Scenario: Submit a login form with valid credentials.
 
 2. **Login Feature:**
-   - Scenario: Submitting a Login form with a invalid password.
+   - Scenario: Submitting a Login form with an invalid password.
    
 3. **Add Product to Cart Feature:**
-   - Scenario: Add "Sauce Labs Backpack" to cart and verify its presence.
+   - Scenario: Add "Sauce Labs Backpack" to the cart and verify its presence.
    
 4. **End-to-End Purchase Feature:**
    - Scenario: Complete the purchase process from login to order confirmation.
 
-### Table of summary tests an scenarios
+### Table of summary tests and scenarios
 
 | **Test**                     | **Scenario (Test Case)**         | **Summary Description**                           |
 |-------------------------------|----------------------------------|---------------------------------------------------|
